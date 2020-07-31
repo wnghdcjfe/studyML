@@ -27,22 +27,4 @@ stopwords = {'너무', '좋다', '감사', '작가', '있다', '있는'} # 쓸�
 passwords = {word:score for word, score in sorted(
     keywords.items(), key=lambda x:-x[1])[:300] if not (word in stopwords)} 
 
-print(passwords)
-# Set your font path
-font_path = './NanumBarunGothic.ttf'
-
-krwordrank_cloud = WordCloud(
-    font_path = font_path,
-    width = 800,
-    height = 800,
-    background_color="white"
-)
-
-
-krwordrank_cloud = krwordrank_cloud.generate_from_frequencies(passwords)
-  
-
-fig = plt.figure(figsize=(10, 10))
-plt.imshow(krwordrank_cloud, interpolation="bilinear")
-plt.show()
-fig.savefig('./lalaland_wordcloud.png')
+print(passwords) 
