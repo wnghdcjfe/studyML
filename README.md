@@ -48,8 +48,8 @@ http://tech.opentable.com/2015/08/11/navigating-themes-in-restaurant-reviews-wit
  참고 코드: https://github.com/adambielski/siamese-triplet
 
 
-## 수민앙?
-초기 rating data 가 필요.??
+## User recommendation
+피쳐가 비슷한 유저가 평점 또는 추천한 전시회 등을 방문했을 때 LOSS 증가 
 
 ## Similarity User Recommendation
 나중에 유저 정보들이 확정되면..?  
